@@ -74,11 +74,11 @@ Run the following command to clone the EFI files:
 
     <b>Balena Etcher</b>
 
-    Run Balena Etcher and select disk image of Hackintosh, than select USB drive and Flash.
+    Run Balena Etcher and select disk image, than select USB drive and Flash.
 
     <b>Manual</b>
 
-    Format USB Drive to EFI bootloader using disk or gParted (Linux) or Partition Wizard (Windows).
+    Format USB Drive to EFI bootloader using disk or gParted (Linux) or Partition Wizard (Windows). Copy and paste `com.apple.recovery.boot` from `OpenCorePkg/Utilities/macrecovery/` to EFI Partition.
 
 5. CopyPaste the EFI Folder to the EFI Partition
 
@@ -89,6 +89,7 @@ After copying the EFI folder, ensure your configuration is set correctly in the 
 
 For complete instruction read the [wiki](https://github.com/remithzu/efi-sonoma-t440p/wiki).
 ---
+
 
 ## 📜 License
 
@@ -111,6 +112,7 @@ The following files are licensed under the [MIT License](https://github.com/valn
 - SSDT-THINK ```(ThinkVPC (YogaSMC))```
 
 OpenCore is licensed under the [BSD 3-Clause License](https://github.com/acidanthera/OpenCorePkg/blob/master/LICENSE.txt).
+
 
 ---
 ```Copyright (c) 2024. By remithzu <remithzu@proton.me>```
